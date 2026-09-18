@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="img/logo-color.png">
+<title>Cauchos VIP — Cauchos en Caracas con montaje incluido</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<svg class="spr" aria-hidden="true" focusable="false"><defs>
+<g id="i-tire"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.6"/><path d="M12 3v3.2M12 17.8V21M3 12h3.2M17.8 12H21M5.6 5.6l2.3 2.3M16.1 16.1l2.3 2.3M18.4 5.6l-2.3 2.3M7.9 16.1l-2.3 2.3"/></g>
+<g id="i-car"><path d="M3 13.5h18M5.2 13.5 7 8.2A2 2 0 0 1 8.9 6.8h6.2A2 2 0 0 1 17 8.2l1.8 5.3M4 13.5v3.8h16v-3.8"/><circle cx="7.3" cy="17.3" r="1.6"/><circle cx="16.7" cy="17.3" r="1.6"/></g>
+<g id="i-suv"><path d="M3 14h18M4.6 14 6 8.6A2 2 0 0 1 7.9 7.2h8.2A2 2 0 0 1 18 8.6L19.4 14M4 14v3.6h16V14M10 7.4V14"/><circle cx="7.4" cy="17.6" r="1.5"/><circle cx="16.6" cy="17.6" r="1.5"/></g>
+<g id="i-pickup"><path d="M3 14h18M4.4 14 6 9.2A2 2 0 0 1 7.9 7.8h4.4V14M4 14v3.6h16V14v-2.2h-7.7"/><circle cx="7.4" cy="17.6" r="1.5"/><circle cx="16.6" cy="17.6" r="1.5"/></g>
+<g id="i-4x4"><path d="M3 18h18M5 18l4.6-8.4 3 4.6 2-2.8L19 18"/><path d="M9.6 9.6 8 6.6"/></g>
+<g id="i-truck"><path d="M3 7.4h10.4v9.2H3zM13.4 10.6h3.8l2.8 3v3h-6.6z"/><circle cx="6.6" cy="17.6" r="1.5"/><circle cx="16.4" cy="17.6" r="1.5"/></g>
+<g id="i-grid"><rect x="3.6" y="3.6" width="7" height="7" rx="1.4"/><rect x="13.4" y="3.6" width="7" height="7" rx="1.4"/><rect x="3.6" y="13.4" width="7" height="7" rx="1.4"/><rect x="13.4" y="13.4" width="7" height="7" rx="1.4"/></g>
+<g id="i-search"><circle cx="10.8" cy="10.8" r="6.4"/><path d="M15.5 15.5 20 20"/></g>
+<g id="i-wrench"><path d="M15.2 3.6a5 5 0 0 0-5.9 6.6L3.8 15.7a2 2 0 0 0 2.8 2.8l5.5-5.5a5 5 0 0 0 6.6-5.9l-2.8 2.8-2.6-.7-.7-2.6z"/></g>
+<g id="i-bill"><path d="M6 3.4h12v17.2l-2.4-1.6-2.4 1.6-2.4-1.6-2.4 1.6z"/><path d="M9 8.2h6M9 12h6M9 15.4h3.6"/></g>
+<g id="i-dollar"><circle cx="12" cy="12" r="8.6"/><path d="M12 6.6v10.8M14.6 9.2c-.5-.9-1.5-1.3-2.6-1.3-1.5 0-2.7.8-2.7 2s1.1 1.8 2.7 2.1c1.6.3 2.7.9 2.7 2.1s-1.2 2-2.7 2c-1.2 0-2.2-.5-2.7-1.4"/></g>
+<g id="i-check"><circle cx="12" cy="12" r="8.6"/><path d="m8.2 12.2 2.6 2.6 5-5.4"/></g>
+<g id="i-shield"><path d="M12 3.2 5 6v5.4c0 4 2.9 7.7 7 9.4 4.1-1.7 7-5.4 7-9.4V6z"/><path d="m9 12 2.2 2.2L15.2 10"/></g>
+<g id="i-book"><path d="M4 4.6h5.4A2.6 2.6 0 0 1 12 7.2v12a2 2 0 0 0-2-2H4z"/><path d="M20 4.6h-5.4A2.6 2.6 0 0 0 12 7.2v12a2 2 0 0 1 2-2h6z"/></g>
+<g id="i-chat"><path d="M20.4 11.6c0 4-3.8 7.2-8.4 7.2a9.7 9.7 0 0 1-2.7-.4L4.4 20l1.3-3.6a6.8 6.8 0 0 1-2.1-4.8c0-4 3.8-7.2 8.4-7.2s8.4 3.2 8.4 7.2z"/></g>
+<g id="i-wa"><path d="M20.4 11.6c0 4-3.8 7.2-8.4 7.2a9.7 9.7 0 0 1-2.7-.4L4.4 20l1.3-3.6a6.8 6.8 0 0 1-2.1-4.8c0-4 3.8-7.2 8.4-7.2s8.4 3.2 8.4 7.2z"/><path d="M9.4 9.1c.3-.1.6 0 .8.3l.7 1.1c.1.2.1.5 0 .7l-.4.5c-.1.2-.1.4 0 .6.4.7 1 1.3 1.8 1.7.2.1.5.1.6-.1l.4-.5c.2-.2.4-.2.6-.1l1.2.6c.3.2.4.5.3.8-.2.6-.8 1-1.5 1-2.3-.1-4.6-2.3-4.9-4.6 0-.7.3-1.3.4-2z"/></g>
+<g id="i-pin"><path d="M12 21c3.6-4.2 6-7.2 6-9.9A6 6 0 0 0 6 11.1c0 2.7 2.4 5.7 6 9.9z"/><circle cx="12" cy="11" r="2.3"/></g>
+<g id="i-box"><path d="M20.4 8.2 12 3.6 3.6 8.2v7.6L12 20.4l8.4-4.6z"/><path d="m3.6 8.2 8.4 4.6 8.4-4.6M12 12.8v7.6"/></g>
+<g id="i-clock"><circle cx="12" cy="12" r="8.6"/><path d="M12 7.2V12l3.2 1.9"/></g>
+<g id="i-star"><path d="m12 4 2.5 5.1 5.6.8-4 3.9 1 5.6-5.1-2.7-5.1 2.7 1-5.6-4-3.9 5.6-.8z"/></g>
+<g id="i-shop"><path d="M4 9.4h16v10.4H4z"/><path d="M4 9.4 5.6 4.6h12.8L20 9.4M9.6 19.8v-5.6h4.8v5.6"/></g>
+<g id="i-menu"><path d="M4 7.2h16M4 12h16M4 16.8h16"/></g>
+<g id="i-send"><path d="M4.4 12 20 4.6l-3.4 15.2-4.8-4.4z"/><path d="m11.8 15.4 8.2-10.8"/></g>
+<g id="i-sliders"><path d="M4 7.4h10M18 7.4h2M4 16.6h4M12 16.6h8"/><circle cx="16" cy="7.4" r="2"/><circle cx="10" cy="16.6" r="2"/></g>
+<g id="i-cart"><circle cx="9.6" cy="19.4" r="1.5"/><circle cx="17.4" cy="19.4" r="1.5"/><path d="M2.8 3.8h2.6l2.4 11.2h10.6l1.8-8H6.4"/></g>
+<g id="i-calendar"><rect x="3.6" y="5.6" width="16.8" height="15" rx="2"/><path d="M3.6 10.2h16.8M8.4 3.4v4M15.6 3.4v4"/></g>
+</defs></svg>
+
+<div class="demo">PROTOTIPO DE DISEÑO · <b>precios, marcas, caucheras y disponibilidad son de ejemplo</b> — no son datos reales de VENEGE</div>
+
+<header>
+  <div class="hbar">
+    <a href="#" onclick="go('home');return false" class="logo" aria-label="Cauchos VIP"><img src="img/logo-color.png" alt="Cauchos VIP"></a>
+    <nav class="desk">
+      <a href="#" onclick="go('cat');return false" data-nav="cat">Cauchos</a>
+      <a href="#" onclick="go('cat');return false">Marcas</a>
+      <a href="#" onclick="go('como');return false" data-nav="como">Cómo funciona</a>
+      <a href="#" onclick="go('red');return false" data-nav="red">Caucheras</a>
+    </nav>
+    <button class="hcart" onclick="abrirCarrito()" aria-label="Ver carrito">
+      <svg class="ic"><use href="#i-cart"/></svg><span class="hcart-n hide" id="cartN">0</span></button>
+    <button class="hwa" onclick="wa()"><svg class="ic"><use href="#i-wa"/></svg><span>WhatsApp</span></button>
+    <button class="burger" onclick="document.querySelector('.mmenu').classList.toggle('open')"><svg class="ic"><use href="#i-menu"/></svg></button>
+  </div>
+  <div class="mmenu">
+    <a href="#" onclick="go('cat');mclose();return false">Cauchos</a>
+    <a href="#" onclick="go('cat');mclose();return false">Marcas</a>
+    <a href="#" onclick="go('como');mclose();return false">Cómo funciona</a>
+    <a href="#" onclick="go('red');mclose();return false">Red de caucheras</a>
+    <a href="#" onclick="go('red');mclose();return false">Únete a la Red VIP</a>
+  </div>
+</header>
+
+<!-- ============================ HOME ============================ -->
+<main id="p-home">
+
+<div id="avisoDia"></div>
+
+<div class="hero">
+  <div class="wrap">
+    <img class="heroimg" src="img/hero-cauchos.jpg" alt="Cauchos nuevos con montaje incluido"
+         onerror="this.onerror=null;this.src='img/hero-caucho.svg'">
+    <h1>Las mejores marcas de cauchos, al mejor precio y con <em>montaje incluido</em></h1>
+    <p class="sub">Compra al precio de calle, con montaje y balanceo incluidos, y móntalos el mismo día en una cauchera aliada de Caracas.</p>
+
+    <div class="tabs">
+      <button class="tab on" id="tabA" onclick="setTab('a')">
+        <div class="ic"><svg class="ic"><use href="#i-tire"/></svg></div><b>SÉ MI MEDIDA</b><span>Ancho / Perfil / Rin</span>
+      </button>
+      <button class="tab" id="tabB" onclick="setTab('b')">
+        <div class="ic"><svg class="ic"><use href="#i-car"/></svg></div><b>NO SÉ MI MEDIDA</b><span>Busca por tu vehículo</span>
+      </button>
+    </div>
+
+    <div class="searchbox" id="boxA">
+      <div class="selrow">
+        <div><span class="lbl">Ancho</span><select id="sAncho"></select></div>
+        <div><span class="lbl">Perfil</span><select id="sPerfil"></select></div>
+        <div><span class="lbl">Rin</span><select id="sRin"></select></div>
+      </div>
+      <div class="freeform">
+        <input type="text" id="freeSize" placeholder="…o escríbela: 195/60R15">
+      </div>
+      <div style="margin-top:10px"><button class="btn btn-ink" onclick="searchSize()"><svg class="ic"><use href="#i-search"/></svg> Buscar mis cauchos</button></div>
+    </div>
+
+    <div class="searchbox hide" id="boxB">
+      <div class="selrow" style="grid-template-columns:1fr 1fr">
+        <div><span class="lbl">Marca</span><select id="vMarca" onchange="fillModelo()"></select></div>
+        <div><span class="lbl">Modelo</span><select id="vModelo" onchange="fillAno()"></select></div>
+      </div>
+      <div style="margin-top:9px"><span class="lbl">Año</span><select id="vAno"></select></div>
+      <div style="margin-top:10px"><button class="btn btn-ink" onclick="searchVeh()"><svg class="ic"><use href="#i-car"/></svg> Ver mi medida y mis opciones</button></div>
+      <div style="margin-top:9px;text-align:center;font-size:12.5px;color:var(--grey)">¿No aparece tu carro? <a href="#" onclick="andrea('medida');return false" style="color:var(--orange-d);font-weight:700">Habla con Andrea</a></div>
+    </div>
+
+    <div class="bcv">
+      <span><svg class="ic"><use href="#i-dollar"/></svg> <b>Precios en dólares</b></span>
+      <span>·</span>
+      <span><svg class="ic"><use href="#i-wrench"/></svg> Montaje y balanceo incluidos</span>
+      <span>·</span>
+      <span><svg class="ic"><use href="#i-bill"/></svg> <b>Emitimos factura</b></span>
+      <span>·</span>
+      <span>Actualizado <b id="hoy"></b></span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="kick">Tranquilo, eso lo resolvemos</div>
+    <h2 class="sec">¿No sabes qué medida usa tu carro?</h2>
+    <p class="lead">Es lo más común. Tienes tres formas de averiguarlo en menos de un minuto — la más rápida es preguntarle a Andrea.</p>
+    <div class="helpgrid">
+      <button class="helpcard" onclick="setTab('b');scrollTo({top:0,behavior:'smooth'})">
+        <div class="em"><svg class="ic"><use href="#i-car"/></svg></div><div><b>Búscalo por tu vehículo</b><span>Marca → Modelo → Año</span></div><div class="go">›</div>
+      </button>
+      <button class="helpcard hot" onclick="andrea('medida')">
+        <div class="em"><svg class="ic"><use href="#i-chat"/></svg></div><div><b>Habla con Andrea</b><span>Te dice tu medida en un minuto</span></div><div class="go" style="color:#fff">›</div>
+      </button>
+      <button class="helpcard" onclick="document.getElementById('guia').scrollIntoView({behavior:'smooth'})">
+        <div class="em"><svg class="ic"><use href="#i-book"/></svg></div><div><b>¿Dónde consigo la medida?</b><span>Guía rápida</span></div><div class="go">›</div>
+      </button>
+    </div>
+
+    <div style="margin-top:14px;background:var(--ink);border-radius:var(--r);padding:16px;display:flex;gap:13px;align-items:center;flex-wrap:wrap">
+      <span style="width:44px;height:44px;border-radius:50%;background:linear-gradient(140deg,var(--rojo),#7A0000);color:#fff;font-weight:700;font-size:18px;display:flex;align-items:center;justify-content:center;flex:none">A</span>
+      <div style="flex:1;min-width:190px;color:#fff">
+        <b style="font-size:15px">Andrea, la asistente de Cauchos VIP</b>
+        <p style="font-size:12.5px;color:#B9C0C7;margin-top:3px">Te dice tu medida, te recomienda según cómo usas el carro y te consigue dónde montar. Responde al momento, todos los días.</p>
+      </div>
+      <button class="btn btn-or" style="width:auto;padding:11px 20px" onclick="andrea('medida')">Hablar con Andrea</button>
+    </div>
+
+    <div class="tirefig" id="guia">
+      <div class="tireband">195/<i>60</i>R<i>15</i></div>
+      <div class="exp">
+        Está escrita en el <b>lado del caucho</b>. Son tres números:
+        <b>195</b> es el ancho en milímetros, <b>60</b> es el perfil (la altura),
+        y <b>15</b> es el rin en pulgadas. Con esos tres ya te conseguimos lo que necesitas.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="kick">Empieza por aquí</div>
+    <h2 class="sec">¿Qué tienes tú?</h2>
+    <div class="vgrid">
+      <button class="vcard" onclick="goCat({tipo:'Carro'})"><div class="em"><svg class="ic"><use href="#i-car"/></svg></div><b>Carro</b></button>
+      <button class="vcard" onclick="goCat({tipo:'Camioneta'})"><div class="em"><svg class="ic"><use href="#i-suv"/></svg></div><b>Camioneta</b></button>
+      <button class="vcard" onclick="goCat({tipo:'Pick-up'})"><div class="em"><svg class="ic"><use href="#i-pickup"/></svg></div><b>Pick-up</b></button>
+      <button class="vcard" onclick="goCat({tipo:'4x4'})"><div class="em"><svg class="ic"><use href="#i-4x4"/></svg></div><b>4x4</b></button>
+      <button class="vcard" onclick="goCat({tipo:'Carga'})"><div class="em"><svg class="ic"><use href="#i-truck"/></svg></div><b>Carga</b></button>
+      <button class="vcard" onclick="goCat({})"><div class="em"><svg class="ic"><use href="#i-grid"/></svg></div><b>Ver todo</b></button>
+    </div>
+
+    <div style="margin-top:30px" class="kick">Marcas</div>
+    <h2 class="sec">Las que ya conoces</h2>
+    <div class="brands" id="brandRow"></div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="kick">Por qué comprar aquí</div>
+    <h2 class="sec">Sin vueltas y sin sorpresas</h2>
+    <div class="bens">
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-check"/></svg></div><b>Precio real, publicado</b><p>El mismo precio de la calle. Es el precio que pagas: sin sorpresas al final.</p></div>
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-wrench"/></svg></div><b>Montaje y balanceo incluidos</b><p>Cuando llegues a la cauchera no pagas nada adicional. Ya está todo cubierto.</p></div>
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-shield"/></svg></div><b>Con factura y garantía</b><p>Producto nuevo, sellado, con garantía de fábrica y factura. Respaldo VENEGE.</p></div>
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-truck"/></svg></div><b>¿No puedes ir?</b><p>Delivery gratis en Caracas o retiro en punto VIP. Tú decides cómo los recibes.</p></div>
+    </div>
+  </div>
+</section>
+<section class="alt">
+  <div class="wrap">
+    <div class="kick">Así de fácil es</div>
+    <h2 class="sec">Cómo funciona</h2>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><b>Busca tu caucho</b><p>Por medida o por tu vehículo. Si no sabes, mándanos una foto.</p></div>
+      <div class="step"><div class="n">2</div><b>Te decimos dónde y cuándo</b><p>Te decimos en qué cauchera aliada montas y a qué hora.</p></div>
+      <div class="step"><div class="n">3</div><b>Pagas por WhatsApp</b><p>Por el medio que prefieras. Te emitimos factura.</p></div>
+      <div class="step"><div class="n">4</div><b>Montas y listo</b><p>Vas con tu código. No pagas nada adicional allá. ¿No puedes ir? Delivery gratis o retiro en punto VIP.</p></div>
+    </div>
+    <div style="margin-top:16px"><a href="#" onclick="go('como');return false" style="font-weight:700;color:var(--orange-d)">Ver cómo funciona en detalle →</a></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kick">Catálogo</div>
+    <h2 class="sec">Los más pedidos esta semana</h2>
+    <div class="pgrid" id="featured"></div>
+    <div style="margin-top:18px;max-width:280px"><button class="btn btn-gh" onclick="goCat({})">Ver todo el catálogo</button></div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="kick">Red VIP · Caracas</div>
+    <h2 class="sec">Dónde te los montan</h2>
+    <div class="map">
+      <div class="grid"></div>
+      <div class="in">
+        <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap">
+          <div><div class="bignum" id="nCau">0</div><div style="font-size:12.5px;color:#9AA3AB;margin-top:3px">cauchera aliada<br>plan piloto</div></div>
+          <div style="flex:1;min-width:220px;font-size:13.5px;color:#B9C0C7">
+            Arrancamos con una Cauchera Aliada verificada por VENEGE, con equipo de montaje y balanceo,
+            que se compromete a respetar el precio publicado. La red crece por zonas a medida que el piloto avanza.
+          </div>
+        </div>
+        <div class="pins" id="pins"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kick">Garantía</div>
+    <h2 class="sec">Cauchos originales, garantía de fábrica</h2>
+    <div class="trust">
+      <div class="tr"><span class="ck">✓</span> Producto nuevo y sellado</div>
+      <div class="tr"><span class="ck">✓</span> Garantía del fabricante</div>
+      <div class="tr"><span class="ck">✓</span> Vendido y facturado por VENEGE</div>
+      <div class="tr"><span class="ck">✓</span> Si no podemos cumplir, te devolvemos tu dinero</div>
+    </div>
+
+    <div class="quote">
+      <div class="stars">★★★★★</div>
+      <p>"Puse la medida, me dijeron el precio y en qué cauchera montaba antes de pagar. Pagué por WhatsApp y en dos horas estaba montando."</p>
+      <div class="who">— Testimonio de ejemplo · en producción solo se publican testimonios reales recogidos por la encuesta post-servicio</div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="kick">Ayuda</div>
+    <h2 class="sec">Preguntas frecuentes</h2>
+    <div class="faq" id="faq"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="bcau">
+      <div style="flex:1">
+        <h3>¿Tienes una cauchera?</h3>
+        <p>Nosotros conseguimos y cobramos al cliente. Tú lo atiendes, le montas y cobras tu porcentaje. Sin comprar un solo caucho.</p>
+      </div>
+      <button class="btn btn-or" onclick="go('red')">Únete a la Red VIP</button>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============================ CATÁLOGO ============================ -->
+<main id="p-cat" class="hide">
+  <div class="wrap">
+    <div class="crumb"><a href="#" onclick="go('home');return false">Inicio</a> › <span id="crumbCat">Cauchos</span></div>
+    <div class="catlay">
+      <aside class="filters" id="filters">
+        <div class="fgroup">
+          <b>Buscar</b>
+          <input type="search" id="fQ" placeholder="SKU, marca, modelo de carro…" oninput="buscarCatalogo()">
+          <span class="fhint">Funciona con SKU, marca, nombre, medida, categoría y modelo de vehículo.</span>
+        </div>
+        <div class="fgroup">
+          <b>Medida</b>
+          <input type="text" id="fSize" placeholder="195/60R15" oninput="buscarCatalogo()">
+        </div>
+        <div class="fgroup"><b>Tipo de vehículo</b><div class="chips" id="fTipo"></div></div>
+        <div class="fgroup"><b>Marca</b><div class="chips" id="fMarca"></div></div>
+        <div class="fgroup"><b>Gama</b><div class="chips" id="fGama"></div></div>
+        <div class="fgroup"><b>Uso</b><div class="chips" id="fUso"></div></div>
+        <div class="fgroup">
+          <b>Disponibilidad</b>
+          <div class="chips"><button class="chip" data-k="dispo" onclick="alternarFiltro(this)">Ocultar agotados</button></div>
+        </div>
+      </aside>
+
+      <div>
+        <div class="fbar">
+          <button class="btn btn-gh mfilter" style="width:auto;padding:9px 15px;font-size:13.5px" onclick="document.getElementById('filters').classList.toggle('open')"><svg class="ic"><use href="#i-sliders"/></svg> Filtros</button>
+          <span class="cnt" id="cnt">0 opciones</span>
+          <select id="fOrden" class="forden" onchange="pintarCatalogo()" aria-label="Ordenar">
+            <option value="relevancia">Recomendados</option>
+            <option value="precioAsc">Precio: de menor a mayor</option>
+            <option value="precioDesc">Precio: de mayor a menor</option>
+            <option value="marca">Marca</option>
+            <option value="disponibilidad">Disponibilidad</option>
+          </select>
+          <button class="clr" onclick="limpiarFiltros()">Limpiar filtros</button>
+        </div>
+        <div class="pgrid" id="results"></div>
+        <div class="empty hide" id="empty">
+          <b>No conseguimos <span id="emptyQ"></span> ahorita</b>
+          <p>Pero podemos buscártela. Escríbenos y te decimos en cuánto te la conseguimos, o mira las medidas equivalentes que le sirven a tu carro.</p>
+          <div style="display:flex;gap:9px;flex-wrap:wrap">
+            <button class="btn btn-ink" style="width:auto;padding:11px 18px" onclick="andrea('buscar')"><svg class="ic"><use href="#i-chat"/></svg> Pregúntale a Andrea</button>
+            <button class="btn btn-gh" style="width:auto;padding:11px 18px" onclick="limpiarFiltros()">Ver todo el catálogo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ============================ FICHA ============================ -->
+<main id="p-prod" class="hide">
+  <div class="wrap">
+    <div class="crumb"><a href="#" onclick="go('home');return false">Inicio</a> › <a href="#" onclick="go('cat');return false">Cauchos</a> › <span id="crumbProd"></span></div>
+    <div class="play">
+      <div class="pmain" id="dImg"></div>
+      <div>
+        <div class="pbrand" id="dBrand"></div>
+        <div class="ptitle" id="dName"></div>
+        <div class="psku" id="dSku"></div>
+        <div class="pmeta" id="dMeta"></div>
+        <div class="stock" id="dStock" style="margin-top:10px"></div>
+
+        <div class="pprice" id="dPrice"></div>
+        <div class="pantes-row" id="dAntes"></div>
+        <div class="pbs" id="dBs"></div>
+        <div class="refbcv" id="dBcv"></div>
+        <div style="margin-top:6px"><span class="tag">precio de ejemplo</span></div>
+
+        <p class="pdesc-txt" id="dDesc"></p>
+
+        <div style="margin-top:16px"><span class="lbl">¿Cuántos necesitas?</span>
+          <div class="qty" id="dQty"></div>
+        </div>
+        <div class="total">Total estimado: <b id="dTotal"></b> <span class="refbcv" id="dTotalBs"></span></div>
+
+        <div style="margin-top:16px;display:flex;flex-direction:column;gap:9px" id="dAdd"></div>
+        <div style="margin-top:10px;font-size:12px;color:var(--grey);text-align:center">
+          Te decimos en qué cauchera y a qué hora <b>antes</b> de que pagues.
+        </div>
+        <div id="avisoFicha"></div>
+        <div style="margin-top:14px;border:1px solid var(--line);border-radius:var(--r);overflow:hidden">
+          <div style="background:var(--light);padding:9px 13px;font-size:11px;font-weight:700;letter-spacing:1.2px;color:var(--grey);text-transform:uppercase">¿Cómo lo quieres recibir?</div>
+          <div style="padding:11px 13px;display:flex;gap:10px;align-items:flex-start;border-bottom:1px solid var(--line);background:var(--rojo-l)" id="via-cauchera">
+            <span class="viaic"><svg class="ic"><use href="#i-wrench"/></svg></span>
+            <span><b style="font-size:13.5px">Montar en cauchera aliada</b> <span style="background:var(--rojo);color:#fff;font-size:9.5px;font-weight:700;padding:2px 6px;border-radius:4px;letter-spacing:.5px;vertical-align:middle">RECOMENDADO</span><br><span style="font-size:12px;color:var(--grey)">Montaje y balanceo <b>incluidos</b>. El mismo día en tu zona.</span></span>
+          </div>
+          <div style="padding:11px 13px;display:flex;gap:10px;align-items:flex-start;border-bottom:1px solid var(--line)" id="via-delivery">
+            <span class="viaic"><svg class="ic"><use href="#i-truck"/></svg></span>
+            <span><b style="font-size:13.5px">Delivery gratis en Caracas</b><br><span style="font-size:12px;color:var(--grey)">Te los llevamos a donde estés. Sin costo de envío. <b>Montaje no incluido.</b></span></span>
+          </div>
+          <div style="padding:11px 13px;display:flex;gap:10px;align-items:flex-start" id="via-pickup">
+            <span class="viaic"><svg class="ic"><use href="#i-shop"/></svg></span>
+            <span><b style="font-size:13.5px">Retiro en punto VIP</b><br><span style="font-size:12px;color:var(--grey)">Pasas cuando quieras y los recoges. <b>Montaje no incluido.</b></span></span>
+          </div>
+        </div>
+        <button onclick="andrea('prod')" style="margin-top:12px;width:100%;background:var(--light);border:1.5px solid var(--line);border-radius:10px;padding:12px;display:flex;align-items:center;gap:11px;text-align:left">
+          <span style="width:34px;height:34px;border-radius:50%;background:linear-gradient(140deg,var(--rojo),#7A0000);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none">A</span>
+          <span style="line-height:1.25"><b style="font-size:13.5px">¿Dudas con este caucho?</b><br><span style="font-size:12px;color:var(--grey)">Pregúntale a Andrea si le sirve a tu carro</span></span>
+        </button>
+
+        <div class="trust" style="grid-template-columns:1fr;gap:6px;margin-top:16px">
+          <div class="tr" style="padding:11px 14px;font-size:13px"><span class="ck">✓</span> Montaje y balanceo <b style="margin-left:4px">incluidos</b></div>
+          <div class="tr" style="padding:11px 14px;font-size:13px"><span class="ck">✓</span> Original, sellado y con garantía de fábrica</div>
+          <div class="tr" style="padding:11px 14px;font-size:13px"><span class="ck">✓</span> Emitimos factura · Respaldo VENEGE</div>
+        </div>
+
+        <div class="fitbox">
+          <b>¿Este caucho es para mi carro?</b>
+          <div class="selrow" style="grid-template-columns:1fr 1fr;margin-top:10px">
+            <select id="fitMarca" onchange="fillModelo('fit')"></select>
+            <select id="fitModelo" onchange="fillAno('fit')"></select>
+          </div>
+          <div style="margin-top:8px"><select id="fitAno"></select></div>
+          <div style="margin-top:9px"><button class="btn btn-ink" style="padding:10px;font-size:14px" onclick="checkFit()">Verificar</button></div>
+          <div class="fitres" id="fitRes"></div>
+        </div>
+
+        <div class="perf">
+          <b style="font-size:15px">Para qué sirve</b>
+          <div id="dUso" style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap"></div>
+          <div id="dPerf" style="margin-top:12px"></div>
+        </div>
+
+        <div class="acc" id="dAcc"></div>
+      </div>
+    </div>
+
+    <section>
+      <div class="kick">Otras opciones</div>
+      <h2 class="sec">Alternativas en tu medida</h2>
+      <div class="pgrid" id="alts"></div>
+    </section>
+  </div>
+
+  <div class="stickybuy">
+    <div class="p"><span id="sTotal"></span><br><span style="font-size:10px;font-weight:600;color:var(--grey)">montaje incluido</span></div>
+    <button class="btn btn-wa" onclick="agregarAlCarrito(VIP.ui.ficha.actual().sku, cantidadFicha())"><svg class="ic"><use href="#i-cart"/></svg> AGREGAR</button>
+  </div>
+</main>
+
+<!-- ============================ CARRITO ============================ -->
+<div class="ov cartov" id="cartOv">
+  <aside class="cart" role="dialog" aria-label="Carrito">
+    <header class="cart-head">
+      <b>Tu carrito</b>
+      <button class="x" onclick="cerrarCarrito()" aria-label="Cerrar">✕</button>
+    </header>
+    <div class="cart-aviso" id="cartAviso"></div>
+    <div class="cart-body" id="cartBody"></div>
+    <footer class="cart-pie" id="cartPie"></footer>
+  </aside>
+</div>
+
+<!-- ============================ CÓMO FUNCIONA ============================ -->
+<main id="p-como" class="hide">
+  <div class="hpage"><div class="wrap">
+    <h1>Así funciona VIP</h1>
+    <p>Compras aquí al precio de calle. Nosotros ponemos el caucho en una cauchera aliada y ella te lo monta. Sin pagar nada adicional.</p>
+  </div></div>
+  <section><div class="wrap">
+    <div class="bigstep">
+      <div class="bs"><div class="n">1</div><div><b>Encuentra tu caucho</b><p>Busca por medida o por tu vehículo. Si no sabes tu medida, mándanos una foto del caucho y te la decimos nosotros.</p><div class="tip">Aquí ves el precio real. Sin DM, sin vueltas.</div></div></div>
+      <div class="bs"><div class="n">2</div><div><b>Te decimos dónde y cuándo</b><p>Te decimos cuál es la Cauchera Aliada VIP, dónde queda y a qué hora puedes ir — antes de que pagues nada.</p><div class="tip">Sabes exactamente dónde vas a montar.</div></div></div>
+      <div class="bs"><div class="n">3</div><div><b>Pagas por WhatsApp</b><p>Por el medio que prefieras. Te emitimos factura y te damos tu código VIP al momento.</p><div class="tip">Si no podemos cumplir, te devolvemos tu dinero.</div></div></div>
+      <div class="bs"><div class="n">4</div><div><b>Montas y listo</b><p>Vas con tu código, te montan los cauchos y te los balancean. No pagas nada adicional allá.</p><div class="tip">Con garantía de fábrica y factura.</div></div></div>
+    </div>
+
+    <div class="why">
+      <h3>¿Por qué lo hacemos así?</h3>
+      <p>Porque un caucho no se compra: se monta. Necesitas que alguien cerca de ti te lo instale bien, te lo balancee y te responda si algo pasa después.</p>
+      <p>Por eso trabajamos con caucheras aliadas. Nosotros ponemos el producto, el precio, la factura y el respaldo. Ellas ponen el servicio — y les pagamos nosotros por atenderte. Arrancamos en Caracas con una cauchera aliada y la red crece por zonas.</p>
+      <p style="color:var(--orange);font-weight:700">Y tú pagas lo mismo que pagarías si llegaras caminando a una cauchera. Ni un dólar más.</p>
+    </div>
+
+    <div style="margin-top:22px;max-width:320px"><button class="btn btn-wa" onclick="wa()"><svg class="ic"><use href="#i-wa"/></svg> Buscar mis cauchos</button></div>
+  </div></section>
+</main>
+
+<!-- ============================ RED / CAUCHERAS ============================ -->
+<main id="p-red" class="hide">
+  <div class="hpage"><div class="wrap">
+    <div class="kick" style="color:var(--orange)">RED VIP</div>
+    <h1>Gana sin comprar inventario.</h1>
+    <p>Nosotros conseguimos al cliente, le vendemos y le cobramos. Te mandamos el caucho y te mandamos al cliente. Tú lo montas y cobras tu porcentaje — sin poner un bolívar.</p>
+    <div style="margin-top:18px;max-width:260px"><button class="btn btn-or" onclick="document.getElementById('formRed').scrollIntoView({behavior:'smooth'})">Quiero unirme</button></div>
+  </div></div>
+
+  <section><div class="wrap">
+    <div class="why" style="margin-top:0">
+      <h3>Hablemos claro</h3>
+      <p>Sabemos lo que se dijo antes: que VIP le quitaba clientes a las caucheras.</p>
+      <p style="color:#fff;font-weight:700">VIP sigue vendiendo — no te lo vamos a esconder. Lo que cambió es que ahora vende al mismo precio de calle que tú manejas, y de cada venta en tu zona te paga a ti por atenderla.</p>
+      <p>Nunca vamos a estar más baratos que tú. Está firmado en el acuerdo y el precio es público: si lo bajamos, lo ves tú y lo ve todo el mundo el mismo día.</p>
+    </div>
+
+    <div style="margin-top:26px" class="kick">Lo importante</div>
+    <h2 class="sec">Cómo ganas tú</h2>
+    <div class="steps" style="grid-template-columns:1fr">
+      <div class="step" style="display:flex;gap:14px;align-items:flex-start"><div class="n">1</div><div><b>El cliente compra y nos paga a nosotros</b><p>Al mismo precio de calle que tú manejas. Ya vio el precio, ya lo aceptó y ya pagó.</p></div></div>
+      <div class="step" style="display:flex;gap:14px;align-items:flex-start"><div class="n">2</div><div><b>Te mandamos el caucho y el cliente</b><p>Tú no compras nada. El producto es nuestro hasta que se lo entregas.</p></div></div>
+      <div class="step" style="display:flex;gap:14px;align-items:flex-start"><div class="n">3</div><div><b>Tú lo montas y lo balanceas</b><p>Sin cotizar, sin negociar, sin cobrarle nada al cliente. Ya está todo resuelto.</p></div></div>
+      <div class="step" style="display:flex;gap:14px;align-items:flex-start;border-color:var(--orange);background:var(--orange-l)"><div class="n">4</div><div><b>Te pagamos tu porcentaje de esa venta</b><p>En la fecha comprometida, con el detalle de cada orden. <b>Te lo decimos de frente:</b> es menos de lo que ganarías con un cliente tuyo y tu propio caucho. La diferencia es que aquí no pones capital, no corres riesgo de inventario y el cliente no era tuyo.</p></div></div>
+      <div class="step" style="display:flex;gap:14px;align-items:flex-start;border-color:var(--ok);background:#F1FAF3"><div class="n" style="background:var(--ok)">+</div><div><b>Y la venta cruzada es 100% tuya</b><p>El cliente que va a montar cuatro cauchos también te paga la alineación, el balanceo extra, las válvulas y capaz vuelve por los frenos. <b>Eso es tuyo completo. Nosotros ni lo contamos ni lo tocamos.</b></p></div></div>
+    </div>
+
+    <div class="two">
+      <div class="lst"><h4>Lo que ponemos nosotros</h4><ul>
+        <li>La publicidad y el tráfico</li>
+        <li>El cliente ya calificado <b>y ya pagado</b></li>
+        <li><b>El producto, sin que tú lo compres</b></li>
+        <li>El precio publicado y protegido</li>
+        <li>La factura y la garantía</li>
+        <li>Tu pago puntual, con detalle por orden</li>
+        <li>Tu cauchera en el mapa de la red</li>
+        <li>Material para tu local</li>
+      </ul></div>
+      <div class="lst ask"><h4>Lo que te pedimos</h4><ul>
+        <li>Que respondas rápido y agendes en el plazo</li>
+        <li>Que cuides el producto que te dejamos</li>
+        <li><b>Que no le ofrezcas al cliente venderle por fuera lo que ya nos compró</b></li>
+        <li>Que confirmes cuando montes</li>
+        <li>Que atiendas bien. Tu servicio es nuestra cara.</li>
+      </ul></div>
+    </div>
+
+    <div style="margin-top:26px" class="kick">Sin favoritismos</div>
+    <h2 class="sec">Cómo se reparten los clientes</h2>
+    <p class="lead">Con reglas, no a dedo. Todo queda registrado con fecha y hora. Si tienes una duda sobre un reparto, te mostramos el registro.</p>
+    <div class="bens" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-pin"/></svg></div><b>Cercanía</b><p>Va a quien esté más cerca del cliente.</p></div>
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-box"/></svg></div><b>Producto disponible</b><p>Si ya tienes esa medida en tu stock VIP, tienes prioridad: el cliente monta hoy.</p></div>
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-clock"/></svg></div><b>Disponibilidad</b><p>Si estás cerrado o en pausa, no te llega.</p></div>
+      <div class="ben"><div class="em"><svg class="ic"><use href="#i-star"/></svg></div><b>Turno y desempeño</b><p>Se reparte por turnos. Quien responde rápido y atiende bien entra más veces.</p></div>
+    </div>
+
+    <div style="margin-top:26px" class="kick">El proceso</div>
+    <h2 class="sec">Cómo entras</h2>
+    <div class="steps" style="grid-template-columns:repeat(auto-fit,minmax(170px,1fr))">
+      <div class="step"><div class="n">1</div><b>Llenas el formulario</b><p>2 minutos.</p></div>
+      <div class="step"><div class="n">2</div><b>Te llamamos</b><p>Y te explicamos todo.</p></div>
+      <div class="step"><div class="n">3</div><b>Visitamos tu local</b><p>Verificación rápida.</p></div>
+      <div class="step"><div class="n">4</div><b>Firmas el acuerdo</b><p>Sin permanencia.</p></div>
+      <div class="step"><div class="n">5</div><b>Te capacitamos</b><p>Una hora.</p></div>
+      <div class="step"><div class="n">6</div><b>Empiezas a recibir</b><p>Clientes de tu zona.</p></div>
+    </div>
+
+    <div class="form" id="formRed">
+      <h2 class="sec" style="font-size:21px">Registra tu cauchera</h2>
+      <p class="lead" style="margin-bottom:16px">Arrancamos en Caracas. Si estás en otra ciudad, igual regístrate: te avisamos cuando abramos tu zona.</p>
+      <div class="frow two-col">
+        <div><span class="lbl">Nombre de la cauchera *</span><input type="text" placeholder="Cauchera El Trébol"></div>
+        <div><span class="lbl">Dueño o encargado *</span><input type="text" placeholder="Tu nombre"></div>
+      </div>
+      <div class="frow two-col">
+        <div><span class="lbl">WhatsApp *</span><input type="text" placeholder="0412-1234567"></div>
+        <div><span class="lbl">Ciudad *</span><select><option>Caracas</option><option>Otra (lista de espera)</option></select></div>
+      </div>
+      <div class="frow"><span class="lbl">Zona / dirección *</span><input type="text" placeholder="Av. Principal de Los Palos Grandes"></div>
+      <div class="frow two-col">
+        <div><span class="lbl">¿Tienes cuenta con VENEGE?</span><select><option>Sí</option><option>No</option><option>No sé</option></select></div>
+        <div><span class="lbl">RIF</span><input type="text" placeholder="J-000000000"></div>
+      </div>
+      <div class="frow"><span class="lbl">Servicios que ofreces</span>
+        <div class="chips">
+          <button class="chip on" onclick="this.classList.toggle('on')">Montaje</button>
+          <button class="chip on" onclick="this.classList.toggle('on')">Balanceo</button>
+          <button class="chip" onclick="this.classList.toggle('on')">Alineación</button>
+          <button class="chip" onclick="this.classList.toggle('on')">Nitrógeno</button>
+          <button class="chip" onclick="this.classList.toggle('on')">Frenos</button>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+        <button class="btn btn-ink" style="width:auto;padding:12px 24px" onclick="alert('Prototipo: en producción esto crea el lead en el pipeline B2B del CRM y notifica al Coordinador de Red VIP.')">Enviar solicitud</button>
+        <button class="btn btn-wa" style="width:auto;padding:12px 24px" onclick="wa('cauchera')"><svg class="ic"><use href="#i-wa"/></svg> Prefiero escribir</button>
+      </div>
+    </div>
+  </div></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="logo dark"><img src="img/logo-blanco.png" alt="Cauchos VIP"></div>
+        <p style="margin-top:13px;max-width:290px">La tienda digital de cauchos de Caracas. Compras aquí al precio de calle, con montaje incluido, y montas en nuestra cauchera aliada de Caracas.</p>
+        <p style="margin-top:10px;font-size:12px;color:#8A8A8A">Respaldado por VENEGE, distribuidor autorizado.<br>RIF J-00000000-0 · Caracas, Venezuela</p>
+      </div>
+      <div><h4>Medidas populares</h4>
+        <div id="fSizes"></div>
+      </div>
+      <div><h4>Zonas de Caracas</h4>
+        <a href="#" onclick="return false">Cauchos en Chacao</a>
+        <a href="#" onclick="return false">Cauchos en Los Palos Grandes</a>
+        <a href="#" onclick="return false">Cauchos en La Trinidad</a>
+        <a href="#" onclick="return false">Cauchos en Baruta</a>
+        <a href="#" onclick="return false">Cauchos en El Paraíso</a>
+      </div>
+      <div><h4>VIP</h4>
+        <a href="#" onclick="go('como');return false">Cómo funciona</a>
+        <a href="#" onclick="go('red');return false">Red de caucheras</a>
+        <a href="#" onclick="go('red');return false">Únete a la Red VIP</a>
+        <a href="#" onclick="return false">Garantía</a>
+        <a href="#" onclick="return false">Preguntas frecuentes</a>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 VENEGE · Operamos en Caracas · Prototipo de diseño, no es un sitio en producción</span>
+      <span>Términos · Privacidad</span>
+    </div>
+  </div>
+</footer>
+
+<button class="anFab" onclick="andrea()">
+  <span class="av">A</span>
+  <span class="tx"><b>Andrea</b><span id="fabTxt">¿Te ayudo a conseguir tus cauchos?</span></span>
+  <span class="pulse"></span>
+</button>
+
+<!-- Andrea · asistente de IA -->
+<div class="anOv" id="anOv">
+  <div class="anPanel">
+    <div class="anHead">
+      <div class="av">A</div>
+      <div>
+        <b>Andrea</b>
+        <span><i></i> Asesora Cauchos VIP · responde al momento</span>
+      </div>
+      <button class="x" onclick="anClose()">✕</button>
+    </div>
+    <div class="anBody" id="anBody"></div>
+    <div class="anChips" id="anChips"></div>
+    <div class="anBar">
+      <input type="text" id="anInput" placeholder="Escríbele a Andrea…" autocomplete="off"
+             onkeydown="if(event.key==='Enter')anSend()">
+      <button onclick="anSend()" aria-label="Enviar"><svg class="ic"><use href="#i-send"/></svg></button>
+    </div>
+    <div class="anNote">Prototipo · Andrea responde con un guion de demostración</div>
+  </div>
+</div>
+
+<!-- WhatsApp simulator -->
+<div class="ov" id="ov">
+  <div class="phone">
+    <div class="phead">
+      <div class="pav">A</div>
+      <div><b>Andrea · Cauchos VIP</b><span>en línea · responde al momento</span></div>
+      <button class="x" onclick="closeWa()">✕</button>
+    </div>
+    <div class="chat" id="chat"></div>
+    <div class="pfoot" id="pfoot"></div>
+  </div>
+</div>
+
+<!-- Vehicle result modal -->
+<div class="mov" id="mov">
+  <div class="modal">
+    <h3 id="mvT">Tu medida</h3>
+    <p class="m" id="mvP"></p>
+    <div class="result show" id="mvR">
+      <div class="sz" id="mvSize"></div>
+      <p id="mvNote"></p>
+    </div>
+    <div style="display:flex;gap:9px;margin-top:16px;flex-wrap:wrap">
+      <button class="btn btn-ink" id="mvBtn" style="width:auto;padding:11px 20px" onclick="mvGo()">Ver mis opciones</button>
+      <button class="btn btn-gh" style="width:auto;padding:11px 20px" onclick="document.getElementById('mov').classList.remove('open')">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+<!-- 1. configuración -->
+<script src="js/config.js"></script>
+<!-- 2. núcleo y modelo -->
+<script src="js/core/http.js"></script>
+<script src="js/models/product.model.js"></script>
+<!-- 3. adaptadores de datos (local activo, API preparada y apagada) -->
+<script src="js/services/adapters/local.adapter.js"></script>
+<script src="js/services/adapters/http.adapter.js"></script>
+<script src="js/data/mock-catalogo.js"></script>
+<!-- 4. servicios -->
+<script src="js/services/catalog.service.js"></script>
+<script src="js/services/cart.service.js"></script>
+<!-- 5. contenido que todavía no viene de la API -->
+<script src="js/data.js"></script>
+<script src="js/vehiculos.js"></script>
+<script src="js/agenda.js"></script>
+<!-- 6. componentes visuales -->
+<script src="js/ui/product-card.js"></script>
+<script src="js/ui/catalog-view.js"></script>
+<script src="js/ui/product-detail.js"></script>
+<script src="js/ui/cart-ui.js"></script>
+<!-- 7. navegación y arranque -->
+<script src="js/app.js"></script>
+<script src="js/andrea.js"></script>
+<script src="js/whatsapp.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

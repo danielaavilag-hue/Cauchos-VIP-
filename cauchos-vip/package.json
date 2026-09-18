@@ -1,0 +1,12 @@
+{
+  "name": "cauchos-vip-prototipo",
+  "version": "1.0.0",
+  "description": "Prototipo navegable del e-commerce B2C de Cauchos VIP (VENEGE). Sitio estático, sin build.",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "dev": "npx --yes serve . -l 3000"
+  },
+  "keywords": ["cauchos", "vip", "venege", "ecommerce", "prototipo"],
+  "license": "UNLICENSED"
+}

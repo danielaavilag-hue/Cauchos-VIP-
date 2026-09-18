@@ -1,0 +1,46 @@
+[
+  {
+    "pregunta": "¿Ustedes venden los cauchos o me mandan a otro lado?",
+    "respuesta": "Nosotros te vendemos y te facturamos, al precio de calle. El montaje lo hace nuestra cauchera aliada, que ya tiene tus cauchos apartados cuando llegas."
+  },
+  {
+    "pregunta": "¿Me sale más caro comprar por aquí?",
+    "respuesta": "No. El precio que ves es el precio de calle, y ya incluye el montaje y el balanceo. Ni más, ni menos."
+  },
+  {
+    "pregunta": "¿El precio incluye la instalación?",
+    "respuesta": "Sí: montaje y balanceo incluidos en la cauchera aliada. Cuando llegues allá no pagas nada adicional por eso."
+  },
+  {
+    "pregunta": "¿Cómo pago?",
+    "respuesta": "Nos pagas a nosotros por WhatsApp, por el medio que prefieras, antes de ir a montar. Te emitimos factura y te damos tu código de orden al momento."
+  },
+  {
+    "pregunta": "¿Y si pago y no me llegan?",
+    "respuesta": "Te damos factura y tu número de orden desde el primer momento, y te decimos el nombre y la dirección de la cauchera donde vas a montar antes de que pagues. Si por alguna razón no podemos cumplir, te devolvemos tu dinero."
+  },
+  {
+    "pregunta": "No sé qué medida usa mi carro.",
+    "respuesta": "Tranquilo, es lo más común. Búscala por tu vehículo, mándanos una foto del caucho por WhatsApp, o mira nuestra guía de dónde está la medida."
+  },
+  {
+    "pregunta": "¿En cuánto tiempo me los montan?",
+    "respuesta": "Si está disponible en tu zona, el mismo día o al día siguiente. Te decimos la hora exacta antes de que pagues."
+  },
+  {
+    "pregunta": "¿Y si no puedo ir a la cauchera?",
+    "respuesta": "Tienes dos opciones: te hacemos delivery gratis en Caracas, o los retiras en nuestro punto VIP cuando te quede cómodo. En esas dos vías el montaje no va incluido, porque lo hace la cauchera. Si después quieres montarlos, te conseguimos cita en la cauchera aliada. Ojo: los sábados no hay delivery ni retiro, porque nuestro almacén no despacha, y los domingos la entrega se programa."
+  },
+  {
+    "pregunta": "¿El delivery tiene costo?",
+    "respuesta": "No, el delivery en Caracas es gratis. **[REQUIERE VENEGE: definir si aplica un mínimo de compra y el radio de cobertura.]**"
+  },
+  {
+    "pregunta": "¿Cómo escogen la cauchera que me atiende?",
+    "respuesta": "Por cercanía a tu zona, si tiene tu medida disponible, su horario y su calificación de servicio. Si prefieres una en particular, dínoslo."
+  },
+  {
+    "pregunta": "¿Los cauchos son originales?",
+    "respuesta": "Sí. Todos vienen de VENEGE, distribuidor autorizado. Producto nuevo, sellado y con garantía de fábrica."
+  }
+]

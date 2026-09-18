@@ -1,0 +1,10 @@
+# Cauchos VIP
+# IMPORTANTE: mientras esto sea un prototipo, mantener Disallow.
+# Al publicar el sitio real, cambiar a "Allow: /" y descomentar el Sitemap.
+
+User-agent: *
+Disallow: /
+
+# User-agent: *
+# Allow: /
+# Sitemap: https://TU-DOMINIO/sitemap.xml

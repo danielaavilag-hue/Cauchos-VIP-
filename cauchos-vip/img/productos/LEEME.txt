@@ -1,0 +1,16 @@
+Fotos de producto.
+
+Nombre del archivo = el SKU en minúsculas, con extensión .jpg
+Ejemplo:  mic-19560r15-energy.jpg
+
+Ese nombre ya está declarado en el campo "imagenes" de cada producto
+en data/catalogo.json, así que no hay que tocar código: basta con
+poner el archivo aquí.
+
+Cuando estén cargadas, poner en js/config.js:
+    catalogo: { imagenesDisponibles: true }
+
+De dónde sacarlas: Michelin, Firestone, General Tire y BFGoodrich
+entregan kits de imágenes oficiales a sus distribuidores. Se piden
+por el canal comercial. No bajar fotos de internet: casi todas tienen
+derechos.
